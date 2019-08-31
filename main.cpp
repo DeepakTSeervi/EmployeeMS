@@ -28,26 +28,26 @@ class Employee{
             cout << "Enter Employee ID: ";
             cin.getline(employee_ID, 20);
 
-            // cout << "Enter Employee name: ";
-            // getline(cin, name);
+            cout << "Enter Employee name: ";
+            getline(cin, name);
 
-            // cout << "Enter Employee salary: ";
-            // cin >> salary;
+            cout << "Enter Employee salary: ";
+            cin >> salary;
 
-            // cout << "Enter Employee contact number: ";
-            // getline(cin, mobile_no);
+            cout << "Enter Employee contact number: ";
+            getline(cin, mobile_no);
 
-            // cout << "Enter Employee position: ";
-            // getline(cin, position);
+            cout << "Enter Employee position: ";
+            getline(cin, position);
 
-            // cout << "Enter Employee Date of join:(DD/MM/YYYY) ";
-            // scanf("%d'/'%d'/'%d", date_of_join.date, date_of_join.month, date_of_join.year);
+            cout << "Enter Employee Date of join:(DD/MM/YYYY) ";
+            scanf("%d'/'%d'/'%d", date_of_join.date, date_of_join.month, date_of_join.year);
 
-            // cout << "Enter Employee Qualification: ";
-            // getline(cin, qualification);
+            cout << "Enter Employee Qualification: ";
+            getline(cin, qualification);
 
-            // cout << "Enter Employee Address: ";
-            // getline(cin, employee_address);
+            cout << "Enter Employee Address: ";
+            getline(cin, employee_address);
 
             
         }
