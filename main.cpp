@@ -1,13 +1,11 @@
 #include<iostream>
-#include<vector>
+#include<cstring>
 using namespace std;
-
 
 struct Date
 {
     int date, month, year;
 };
-
 
 // Class for employee
 class Employee{
@@ -21,7 +19,6 @@ class Employee{
         struct Date date_of_join;
         string qualification;
         
-
         // Member functions
         // Display the contents of a particular employee
         int Input(){
@@ -73,7 +70,7 @@ class Employee{
 
 };
 
-
+d
 
 int main(){
     // array of objects of the class 'Employee'
